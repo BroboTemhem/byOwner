@@ -1,8 +1,5 @@
-package com.sarisite.byOwner.api;
+package com.sarisite.byOwner.controller;
 
-import com.sarisite.byOwner.dto.ColorDto.DeleteColorDto;
-import com.sarisite.byOwner.dto.ColorDto.GetColorById;
-import com.sarisite.byOwner.dto.ColorDto.UpdateColorDto;
 import com.sarisite.byOwner.dto.ModelDto.*;
 import com.sarisite.byOwner.service.ModelService;
 import org.springframework.http.HttpStatus;

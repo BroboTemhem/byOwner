@@ -1,8 +1,7 @@
-package com.sarisite.byOwner.api;
+package com.sarisite.byOwner.controller;
 
 import com.sarisite.byOwner.dto.BrandDto.*;
 import com.sarisite.byOwner.service.BrandService;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
