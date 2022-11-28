@@ -39,7 +39,7 @@ public class BrandService {
         if (brandRepository.existsByName(brandName)) {
             throw new BrandNotFoundExeption("Name is already in there!");
         }
-        if (brandName.isBlank() || brandName.isEmpty()) {
+        if (brandName == null || brandName.trim().isEmpty()) {
             throw new BrandNotFoundExeption("Name is not valid!");
         }
         Brand brand = new Brand();
